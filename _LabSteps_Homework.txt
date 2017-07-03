@@ -105,3 +105,30 @@
 git add .
 git commit -m "家庭作業的摘要說明"
 git push
+
+
+<Note> 日後，各作業請都依 yymmdd_主旨 的格式辦理
+
+
+
+
+5.  設定錢老師的檢視權限
+
+
+5.1 在 GitLab，點按畫面上方那個看起來像狐狸的圖案
+
+
+5.2 從 Your project 專案清單點按「portfolio」
+
+
+5.3 點按右上角的「齒輪」圖案，然後選擇: Members
+
+
+5.4 在 People 欄位，搜尋 wolfgang 錢老師
+
+
+5.5 Project Access 欄位，請選: Reporter
+
+
+5.6 點按 Add users to project 按鈕
+
