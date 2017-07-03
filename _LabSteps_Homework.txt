@@ -1,0 +1,107 @@
+家庭作業繳交流程
+
+<Note>
+    依規定，作業必須交到 https://code-lab.chungyo.net
+    該伺服器(GitLab)的功能類似 GitHub，提供程式碼代管服務
+
+
+
+
+1.  申請 GitLab 帳號
+
+
+1.1 連接到 https://code-lab.chungyo.net
+
+
+1.2 以中佑的電子郵件信箱申請一個新的帳號
+
+
+
+
+2.  設定 SSH Keys
+
+
+2.1 在 Cloud9 IDE，Windows | New Terminal 新增一個終端機視窗
+
+
+2.2 輸入指令: cat ~/.ssh/id_rsa.pub
+
+
+2.3 複製 2.2 顯示的內容到剪貼簿
+
+
+2.4 回到 GitLab:
+    https://code-lab.chungyo.net
+
+
+2.5 輸入 Username 與 Password 登入 GitLab
+
+
+2.6 點按左上角的「☰」 |  Profile Settings
+
+
+2.7 在 Profile Settings 頁面，點按「SSH key」
+
+
+2.8 貼入 2.2 顯示的內容到 Key 欄位
+
+
+2.9 點按「Add key」按鈕
+
+
+
+
+3.  建立並下載 portfolio 數據庫
+
+
+3.1 連接到 https://code-lab.chungyo.net
+
+
+3.2 輸入 Username 與 Password 登入 GitLab
+
+
+3.3 點按右上角「+」按鈕 (New project)
+
+
+3.4 Project name 輸入: 「portfolio」
+
+
+3.5 點按綠色的「Create project」按鈕
+
+
+3.6 檢視畫面說明，搜尋並複製下列指定，例如:
+
+    git clone git@code-lab.chungyo.net:wolfgang/portfolio.git
+
+
+3.7 在 Cloud9 IDE，Windows | New Terminal 新增一個終端機視窗
+
+
+3.8 輸入 3.6 的指令，下載 portfolio 數據庫
+
+
+3.9 在「portfolio」資料夾之下，建立一個新檔案，檔名: README.md
+
+    <Note>
+    README.md 的內容請寫明你的中文與英文名字，記得存檔
+
+
+
+
+4.  完成並繳交某次作業
+
+
+4.1 在「portfolio」資料夾之下，建立一個新的子資料夾: 170704_HTML
+
+
+4.2 (將完成的作業置入 170704_HTML 資料夾)
+
+
+4.3 滑鼠點按 「portfolio」資料夾 | Open Terminal Here
+
+
+4.4 依令輸入下列指令，認可並上傳作業:
+
+git add .
+git commit -m "家庭作業的摘要說明"
+git push
